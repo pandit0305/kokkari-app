@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-minimal",
+  "name": "Kokkari-app-single-page",
   "version": "1.0.0",
   "private": true,
-  "description": "A Gatsby starter with no plugins and a single welcome page.",
-  "author": "Laurie Barth",
+  "description": "Kokkari a single welcome page.",
+  "author": "Pandit",
   "keywords": [
     "gatsby"
   ],
@@ -16,8 +16,15 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.19",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.7",
     "gatsby": "^5.12.4",
+    "gatsby-plugin-manifest": "^5.12.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.1"
   }
 }
