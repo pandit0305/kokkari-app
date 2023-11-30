@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import logo from "../../assets/images/log.png";
 import iconLogo from "../../assets/images/iconLogo.png";
-import { styles } from "../../pages/style";
+import { styles } from "../style";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";

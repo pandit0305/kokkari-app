@@ -1,5 +1,5 @@
 import React from "react";
-import { styles } from "../../pages/style";
+import { styles } from "../style";
 import { Box, Typography } from "@mui/material";
 import useMediaQuery from '@mui/material/useMediaQuery';
 
