@@ -2,7 +2,6 @@ export const styles = {
     mobileLogo:{
         cursor: 'pointer',
         maxWidth:'100%',
-        height:'100%'
     },
     logo:{
         textAlign:'center',
@@ -18,6 +17,7 @@ export const styles = {
         margin:'20px',
         color:'black',
         opacity:'0.6',
+        fontSizeAdjust: 0.58,
     },
     bar:{
         backgroundColor:'white',
@@ -33,6 +33,7 @@ export const styles = {
         opacity:'0.6',
         width:'200px',
         textAlign:'center',
+        fontSizeAdjust: 0.58,
     },
     mr:{
         margin:'15px',
@@ -43,7 +44,8 @@ export const styles = {
     text:{
         textAlign:'center',
         opacity:'0.6',
-        fontSize:'16px',
+        fontSize:'14px',
+        fontSizeAdjust: 0.58,
     },
     phone:{
         cursor:'pointer',
@@ -55,11 +57,11 @@ export const styles = {
         color:'#9e7435'
     },
     text1:{
-        width:'250px',
         margin:'15px auto',
+        width:'240px',
         color:'#9e7435',
         opacity:'0.6',
-        fontSize:'14px',
+        fontSize:'13px',
         cursor:'pointer',
         textAlign:'center',
     },
@@ -82,7 +84,8 @@ export const styles = {
     },
     image:{
         width:'100%',
-        height:'100%'
+        maxHeight:'100vh',
+        minHeight:'60vh',
     },
     font:{
         fontSize:'12px'
