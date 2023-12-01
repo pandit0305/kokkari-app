@@ -1,16 +1,17 @@
 import * as React from "react"
 import '../styles/global.css';
-import { Box } from "@mui/material";
 import Header from "../components/header/Header";
-import LandingPage from "../components/LandingPage/LandingPage";
 import Footer from '../components/footer/Footer';
+import HomePage from "../components/homePage/HomePage";
+import HomeSection from '../components/homeSection/HomeSection';
 
 const IndexPage = () => {
   return (
     <>
       <Header />
       <main>
-        <LandingPage />
+        <HomePage/>
+        <HomeSection/>
       </main>
       <Footer />
     </>
@@ -18,5 +19,3 @@ const IndexPage = () => {
 }
 
 export default IndexPage
-
-export const Head = () => <title>Home Page</title>
